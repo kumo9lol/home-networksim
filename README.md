@@ -6,7 +6,7 @@ A complete home network setup demonstrating networking fundamentals using only G
 This project simulates a typical home network environment with both wired and wireless connectivity, configured entirely through Cisco Packet Tracer's graphical interface without CLI commands.
 
 ## 🌐 Network Topology
-![Network Diagram](images/connectivity-tests/network-topology.png)
+![Network Diagram](images/network-topology.png)
 
 ## 🛠️ Devices Configuration
 | Device | Role | Connection Type | IP Address |
