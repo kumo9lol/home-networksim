@@ -1,43 +1,45 @@
-# home-networksim
-A Cisco Packet Tracer home network project with GUI configuration
 # 🏠 Home Network Simulation in Cisco Packet Tracer
 
-A complete home network setup demonstrating networking fundamentals without CLI commands.
+A complete home network setup demonstrating networking fundamentals using only GUI configuration.
 
 ## 📋 Project Overview
-This project simulates a typical home network environment with both wired and wireless connectivity using Cisco Packet Tracer's GUI interface.
+This project simulates a typical home network environment with both wired and wireless connectivity, configured entirely through Cisco Packet Tracer's graphical interface without CLI commands.
 
 ## 🌐 Network Topology
-![Network Diagram](images/network-topology.png)
+![Network Diagram](images/connectivity-tests/network-topology.png)
 
-## 🛠️ Devices Used
-- **1x** Wireless Router (WRT300N)
-- **1x** 24-port Switch (2960-24TT)
-- **2x** Desktop PCs (PC-PT)
-- **1x** Laptop (Laptop-PT)
-- **1x** Smartphone (SMARTPHONE-PT)
-- **1x** Cloud (Internet Simulation)
+## 🛠️ Devices Configuration
+| Device | Role | Connection Type | IP Address |
+|--------|------|-----------------|------------|
+| WRT300N | Wireless Router | Internet + WiFi | 192.168.0.1 |
+| 2960-24TT | Switch | Wired Distribution | N/A |
+| PC-PT (PC0) | Desktop Computer | Wired Ethernet | 192.168.0.104 |
+| PC-PT (PC1) | Desktop Computer | Wired Ethernet | 192.168.0.105 |
+| Laptop-PT | Mobile Device | Wireless | DHCP |
+| SMARTPHONE-PT | Mobile Device | Wireless | 192.168.0.103 |
 
-## 🔧 Configuration Highlights
-- Wireless SSID: `MyHomeNetwork`
-- Security: WPA2-PSK
-- DHCP-enabled for automatic IP assignment
-- Mixed wired and wireless connectivity
+## 🔧 Features Implemented
+- ✅ Internet connectivity via Cloud simulation
+- ✅ Wireless network with WPA2 security (SSID: MyHomeWifi)
+- ✅ Switch-based wired network
+- ✅ DHCP automatic IP assignment
+- ✅ Inter-device connectivity verified with ping tests
 
 ## 🚀 Getting Started
-1. Download the `.pkt` file from the `packet-tracer-files/` folder
-2. Open in Cisco Packet Tracer
+1. Download `home-network.pkt` from the `packet-tracer-files/` folder
+2. Open in Cisco Packet Tracer 8.x or newer
 3. All configurations are pre-set via GUI
 
-## 📊 Features Demonstrated
-- ✅ Internet connectivity simulation
-- ✅ Wireless network configuration
-- ✅ Switch-based wired network
-- ✅ Device connectivity testing
-- ✅ IP address management
+## 📊 Connectivity Verification
+All devices successfully communicate with each other and the router:
 
-## 🎯 Learning Objectives
-- Understand basic network architecture
-- Configure wireless networks via GUI
-- Troubleshoot connectivity issues
-- Manage mixed device environments
+**Ping Test Results:**
+- PC0 → Router (192.168.0.1): ✅ 0% packet loss
+- PC0 → PC1 (192.168.0.105): ✅ 0% packet loss  
+- PC1 → Router (192.168.0.1): ✅ 0% packet loss
+- PC1 → PC0 (192.168.0.104): ✅ 0% packet loss
+
+![Ping Test PC0](images/connectivity-tests/ping-test-fromPC0.png)
+![Ping Test PC1](images/connectivity-tests/ping-test-fromPC1.png)
+
+## 📁 Repository Structure
