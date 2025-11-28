@@ -13,10 +13,10 @@ This project simulates a typical home network environment with both wired and wi
 |--------|------|-----------------|------------|
 | WRT300N | Wireless Router | Internet + WiFi | 192.168.0.1 |
 | 2960-24TT | Switch | Wired Distribution | N/A |
-| PC-PT (PC0) | Desktop Computer | Wired Ethernet | 192.168.0.104 |
-| PC-PT (PC1) | Desktop Computer | Wired Ethernet | 192.168.0.105 |
+| PC-PT (PC0) | Desktop Computer | Wired Ethernet | DHCP |
+| PC-PT (PC1) | Desktop Computer | Wired Ethernet | DHCP |
 | Laptop-PT | Mobile Device | Wireless | DHCP |
-| SMARTPHONE-PT | Mobile Device | Wireless | 192.168.0.103 |
+| SMARTPHONE-PT | Mobile Device | Wireless | DHCP |
 
 ## 🔧 Features Implemented
 - ✅ Internet connectivity via Cloud simulation
