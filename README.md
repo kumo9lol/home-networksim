@@ -42,4 +42,3 @@ All devices successfully communicate with each other and the router:
 ![Ping Test PC0](images/connectivity-tests/ping-test-fromPC0.png)
 ![Ping Test PC1](images/connectivity-tests/ping-test-fromPC1.png)
 
-## 📁 Repository Structure
