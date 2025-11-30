@@ -1,9 +1,9 @@
 # 🏠 Home Network Simulation in Cisco Packet Tracer
 
-A complete home network setup demonstrating networking fundamentals using only GUI configuration.
+A complete home network setup demonstrating networking fundamentals
 
 ## 📋 Project Overview
-This project simulates a typical home network environment with both wired and wireless connectivity, configured entirely through Cisco Packet Tracer's graphical interface without CLI commands.
+This project simulates a typical home network environment with both wired and wireless connectivity, configured entirely through Cisco Packet Tracer's graphical interfaces
 
 ## 🌐 Network Topology
 ![Network Diagram](images/network-topology.png)
